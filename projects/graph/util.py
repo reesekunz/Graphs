@@ -1,7 +1,7 @@
 
 # Note: This Queue class is sub-optimal. Why?
 # It is sub-optimal because its using an array instead of a LinkedList.
-# O(n) runtime to pop b/c we need to shift everything else over if we remove from front of queue.
+# O(n) runtime to pop b/c we need to shift everything else over if we remove from front of queue. A real queue should be O(1)
 # Doesnt affect Stack class b/c removing from the back in this instance.
 
 
